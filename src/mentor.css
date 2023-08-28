@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100&family=Poppins:wght@200;300;400;600;700&display=swap");
+.mentor {
+  margin: 0;
+  width: 100%;
+}
+.mentor h4 {
+  background-clip: text;
+  background: linear-gradient(90deg, rgb(128, 4, 189) 9%, rgb(3, 94, 241) 100%);
+  -webkit-background-clip: text;
+  color: transparent;
+  margin: auto;
+  margin-bottom: 5%;
+  font-size: 50px;
+  font-weight: 700;
+}
+.mentor .Subject {
+  display: block;
+  width: 80%;
+  margin: auto;
+}
+.mentor .Subject p {
+  font-family: "Poppins", sans-serif;
+  text-align: left;
+  font-size: 2rem;
+  font-weight: 550;
+  color: #234EB0;
+}
+.mentor .Subject .mentorList {
+  padding-left: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  flex-direction: row;
+  align-items: baseline;
+}
+.mentor .Subject .mentorList i {
+  font-size: 40px;
+}
+.mentor .Subject .mentorList .mentordetails {
+  display: block;
+  width: 200px;
+  height: auto;
+  text-align: center;
+  margin-left: 2%;
+}
+.mentor .Subject .mentorList .mentordetails div {
+  text-align: center;
+  font-size: 13px;
+  color: #212529;
+  font-weight: 200;
+  font-family: "Poppins", sans-serif;
+}
+.mentor .Subject .mentorList .mentordetails img {
+  text-align: center;
+  width: 80%;
+  border-radius: 50%;
+}/*# sourceMappingURL=mentor.css.map */
